@@ -1,0 +1,16 @@
+import joda.time.Days
+import joda.time.LocalDate
+import joda.time.daysDaysBetween
+import joda.time.localDateParse
+
+main() {
+  LocalDate release = localDateParse("2024-02-29")!!
+  LocalDate deadline = release.plusDays(10)!!
+  Days remaining = daysDaysBetween(arg0: release, arg1: deadline)!!
+  printLine(deadline.toString()!!)
+  printLine(remaining.getDays())
+}
+
+Module module() {
+  module(dependencies: [dependency(repository: "github", name: "joda.time", version: 2)])
+}
