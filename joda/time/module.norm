@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "joda.time",
-    version: 2,
+    version: 3,
     binding: jarBinding(
       target: mavenJar(
         group: "joda-time",

@@ -19,4 +19,4 @@ Expected output:
 10
 ```
 
-API reference: [module.norm](../joda/time/module.norm) lists the exposed `LocalDate` and `Days`. The module's `Main.norm` remains its own adapter integration entry point.
+API reference: [module.norm](../joda/time/module.norm) lists the exposed `LocalDate` and `Days`. The [adapter acceptance example](../examples/sample/joda/time/Main.norm) exercises additional binding behavior.

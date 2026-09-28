@@ -1,0 +1,7 @@
+Module module() {
+  return module(
+    name: "sample.joda.time",
+    version: 1,
+    dependencies: [dependency(repository: "github", name: "joda.time", version: 3)]
+  )
+}

@@ -19,4 +19,4 @@ norm run samples/hello.norm
 10
 ```
 
-API 入口：[module.norm](../joda/time/module.norm) 列出公开的 `LocalDate` 和 `Days`。`Main.norm` 仍是该适配器自身的集成入口。
+API 入口：[module.norm](../joda/time/module.norm) 列出公开的 `LocalDate` 和 `Days`。[适配器验收示例](../examples/sample/joda/time/Main.norm)覆盖更多绑定行为。
