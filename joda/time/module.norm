@@ -10,7 +10,7 @@ Module module() {
       ),
       api: [
         jarType(
-          name: "DateTime",
+          name: "org.joda.time.DateTime",
           members: [
             "getDayOfMonth",
             "getDayOfWeek",
@@ -53,7 +53,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Instant",
+          name: "org.joda.time.Instant",
           members: [
             "EPOCH",
             "getMillis",
@@ -72,7 +72,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "LocalDate",
+          name: "org.joda.time.LocalDate",
           members: [
             "getDayOfMonth",
             "getDayOfWeek",
@@ -101,7 +101,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "LocalDateTime",
+          name: "org.joda.time.LocalDateTime",
           members: [
             "getDayOfMonth",
             "getDayOfWeek",
@@ -138,7 +138,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "LocalTime",
+          name: "org.joda.time.LocalTime",
           members: [
             "MIDNIGHT",
             "fromMillisOfDay",
@@ -165,7 +165,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "DateTimeZone",
+          name: "org.joda.time.DateTimeZone",
           members: ["UTC", "forOffsetHours", "getDefault", "getID", "isFixed"],
           overloads: [
             jarOverload(name: "forID", parameterTypes: ["java.lang.String"]),
@@ -174,7 +174,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Interval",
+          name: "org.joda.time.Interval",
           members: [
             "abuts",
             "gap",
@@ -195,7 +195,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Duration",
+          name: "org.joda.time.Duration",
           members: [
             "ZERO",
             "abs",
@@ -221,7 +221,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Period",
+          name: "org.joda.time.Period",
           members: [
             "ZERO",
             "days",
@@ -259,7 +259,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Days",
+          name: "org.joda.time.Days",
           members: [
             "ONE",
             "ZERO",
@@ -286,7 +286,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Months",
+          name: "org.joda.time.Months",
           members: [
             "ONE",
             "ZERO",
@@ -311,7 +311,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "Years",
+          name: "org.joda.time.Years",
           members: [
             "ONE",
             "ZERO",
@@ -336,7 +336,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "DateTimeConstants",
+          name: "org.joda.time.DateTimeConstants",
           members: [
             "APRIL",
             "AUGUST",
@@ -368,7 +368,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "DateTimeFormat",
+          name: "org.joda.time.format.DateTimeFormat",
           members: [
             "forPattern",
             "forStyle",
@@ -387,7 +387,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "DateTimeFormatter",
+          name: "org.joda.time.format.DateTimeFormatter",
           members: [
             "getDefaultYear",
             "getZone",
@@ -410,7 +410,7 @@ Module module() {
           ]
         ),
         jarType(
-          name: "ISODateTimeFormat",
+          name: "org.joda.time.format.ISODateTimeFormat",
           members: [
             "basicDate",
             "basicDateTime",
