@@ -2,7 +2,7 @@ Module module() {
   return module(
     name: "joda.time",
     version: 3,
-    exports: ["DateTime", "dateTimeParse", "DateTimeZone", "dateTimeZoneForID", "DateTimeFormatter", "dateTimeFormatForPattern", "Interval", "intervalNew", "LocalDate", "localDateParse", "daysDaysBetween", "durationStandardMinutes", "periodDays"],
+    exports: ["DateTime", "DateTimeZone", "DateTimeFormatter", "Interval", "LocalDate"],
     binding: jarBinding(
       target: mavenJar(
         group: "joda-time",
