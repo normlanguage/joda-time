@@ -7,3 +7,5 @@
 独立 NAR 消费、Java interface 名义关系、闰日运算、时区、区间和格式化行为由 `JodaTimeBindingIntegrationTest` 验收。完整 census 与未支持原因位于 NAR 的 `binding/java-api.json`。
 
 [可运行示例](samples/README.zh-CN.md) 展示如何作为外部 Norm 依赖使用本库。
+
+[许可证](LICENSE)

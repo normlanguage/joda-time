@@ -12,5 +12,5 @@ main() {
 }
 
 Module module() {
-  module(dependencies: [dependency(repository: "github", name: "joda.time", version: 3)])
+  module(dependencies: [dependency(repository: "github", name: "joda.time", version: 4)])
 }
