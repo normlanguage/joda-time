@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "joda.time",
-    version: 3,
+    version: 4,
     exports: ["DateTime", "Instant", "LocalDate", "DateTimeZone", "Interval", "Duration", "Period", "Days", "DateTimeFormat", "DateTimeFormatter", "ISODateTimeFormat"],
     binding: jarBinding(
       target: mavenJar(

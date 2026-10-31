@@ -1,6 +1,6 @@
 # joda.time Skill
 
-Use this skill to work with Norm module `joda.time` version 3. Use only declarations listed below.
+Use this skill to work with Norm module `joda.time` version 4. Use only declarations listed below.
 
 ## `joda.time`
 
